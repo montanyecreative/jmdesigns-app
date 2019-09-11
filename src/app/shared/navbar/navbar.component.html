@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/presentation']">
+                jmdesigns
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="purple">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink] fragment="projects">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>Projects</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink] fragment="skills">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>Skills</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/components']">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>Work Experience</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/components']">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>Contact Me</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
