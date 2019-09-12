@@ -9,15 +9,18 @@ import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
-import { PresentationComponent } from './presentation/presentation.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
 import { PresentationModule } from './presentation/presentation.module';
+import { ProjectsComponent } from './shared/projects/projects.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        NavbarComponent
+        NavbarComponent,
+        ProjectsComponent,
+        HomePageComponent
     ],
     imports: [
         BrowserAnimationsModule,

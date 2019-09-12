@@ -18,9 +18,11 @@ import { ProfileComponent } from './examples/profile/profile.component';
 import { RegisterComponent } from './examples/register/register.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { PricingComponent } from './examples/pricing/pricing.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 const routes: Routes =[
-    { path: '', redirectTo: 'presentation', pathMatch: 'full' },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home',                 component: HomePageComponent },
     { path: 'presentation',         component: PresentationComponent },
     { path: 'components',           component: ComponentsComponent },
     { path: 'sections',             component: SectionsComponent },
