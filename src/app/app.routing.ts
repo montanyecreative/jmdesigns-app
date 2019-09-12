@@ -8,7 +8,7 @@ import { SectionsComponent } from './sections/sections.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 
-const routes: Routes =[
+const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home',                 component: HomePageComponent },
     { path: 'components',           component: ComponentsComponent },
@@ -20,7 +20,7 @@ const routes: Routes =[
     imports: [
         CommonModule,
         BrowserModule,
-        RouterModule.forRoot(routes,{
+        RouterModule.forRoot(routes, {
             useHash: true,
             anchorScrolling: 'enabled',
             onSameUrlNavigation: 'reload',
