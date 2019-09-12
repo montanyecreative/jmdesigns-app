@@ -6,12 +6,10 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { SectionsModule } from './sections/sections.module';
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
-import { PresentationModule } from './presentation/presentation.module';
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 
@@ -28,10 +26,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
         FormsModule,
         RouterModule,
         AppRoutingModule,
-        PresentationModule,
         SectionsModule,
-        ComponentsModule,
-        ExamplesModule
+        ComponentsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
