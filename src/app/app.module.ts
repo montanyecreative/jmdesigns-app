@@ -13,6 +13,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SkillsComponent } from './shared/skills/skills.component';
+import { ExperienceComponent } from './shared/experience/experience.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { SkillsComponent } from './shared/skills/skills.component';
         NavbarComponent,
         ProjectsComponent,
         HomePageComponent,
-        SkillsComponent
+        SkillsComponent,
+        ExperienceComponent
     ],
     imports: [
         BrowserAnimationsModule,
