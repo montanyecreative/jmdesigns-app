@@ -1,0 +1,19 @@
+<div class="features-2 section-image" id="skills" style="background-color: #42186e;">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-8 mt-0 mr-auto ml-auto">
+              <h2 class="title">Skills</h2>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2" *ngFor="let skill of skills">
+          <div class="info">
+              <div class="icon icon-primary icon-circle">
+                  <img src="{{ skill.image }}" height="50px" width="50px">
+              </div>
+              <h4 class="info-title">{{ skill.name }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

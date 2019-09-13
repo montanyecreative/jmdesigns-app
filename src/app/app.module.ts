@@ -12,13 +12,15 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 
 import { ProjectsComponent } from './shared/projects/projects.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { SkillsComponent } from './shared/skills/skills.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         ProjectsComponent,
-        HomePageComponent
+        HomePageComponent,
+        SkillsComponent
     ],
     imports: [
         BrowserAnimationsModule,

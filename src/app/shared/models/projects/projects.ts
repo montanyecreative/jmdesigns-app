@@ -13,9 +13,9 @@ export const PROJECTS: Project[] = [
     id: 2,
     name: 'Simplest Cookbook',
     image: 'assets/img/projects/simplestCookbook.jpg',
-    websiteLink: 'https://www.gatewayitconsulting.com/',
+    websiteLink: 'https://www.simplestcookbook.com/',
     codeLink: '',
-    description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
+    description: 'Simple cookbook with many different recipes and calculators relating to cooking.'
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ export const PROJECTS: Project[] = [
     id: 4,
     name: "Our Lady's Inn",
     image: 'assets/img/projects/ourLadysInn.jpg',
-    websiteLink: 'https://www.gatewayitconsulting.com/',
+    websiteLink: 'https://ourladysinn.org/',
     codeLink: '',
-    description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
+    description: "Website for Our Lady's Inn maternity homes in STL."
   }
 ];

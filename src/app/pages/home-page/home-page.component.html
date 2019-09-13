@@ -1,71 +1,30 @@
 <div class="wrapper">
-  <div class="page-header clear-filter">
-    <div class="rellax-header rellax-header-sky" data-rellax-speed="-8">
-        <div class="page-header-image" style="background-image: url('assets/img/banner.jpg')">
+    <div class="page-header clear-filter">
+        <div class="rellax-header rellax-header-sky" data-rellax-speed="-8">
+            <div class="page-header-image" style="background-image: url('assets/img/banner.jpg')">
+            </div>
         </div>
+        <h3 class="heading col-md-6">John Montanye, front-end developer.</h3>
     </div>
-    <h3 class="heading col-md-6">John Montanye, front-end developer.</h3>
-  </div>
-  <app-projects></app-projects>
-  <div class="features-2 section-image" id="skills" style="background-color: #42186e;">
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-md-8 mt-0 mr-auto ml-auto">
-                  <h2 class="title">Skills</h2>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-4">
-                  <div class="info">
-                      <div class="icon icon-primary icon-circle">
-                          <i class="now-ui-icons users_single-02"></i>
-                      </div>
-                      <h4 class="info-title">HTML5</h4>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="info">
-                      <div class="icon icon-danger icon-circle">
-                          <i class="now-ui-icons business_chart-bar-32"></i>
-                      </div>
-                      <h4 class="info-title">A Productivity Platform</h4>
-                      <p class="description">Integrate the apps your team already uses directly into your workflow.</p>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="info">
-                      <div class="icon icon-warning icon-circle">
-                          <i class="now-ui-icons arrows-1_refresh-69"></i>
-                      </div>
-                      <h4 class="info-title">Always In Sync</h4>
-                      <p class="description">No matter where you are, Trello stays in sync across all of your devices.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-<footer class="footer " data-background-color="black">
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        Site Map
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.creative-tim.com/license">
-                        Theme License
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright">
-            &copy;
-            {{date | date: 'yyyy'}}, Theme by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. Designed by
-            <a href="https://www.gatewayitconsulting.com" target="_blank">Gateway IT Consulting</a>.
+    <app-projects></app-projects>
+    <app-skills></app-skills>
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.creative-tim.com/license">
+                            Theme License
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                &copy;
+                {{date | date: 'yyyy'}}, Theme by
+                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>. Designed & Coded by
+                <a href="https://www.gatewayitconsulting.com" target="_blank">Gateway IT Consulting</a>.
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </div>
