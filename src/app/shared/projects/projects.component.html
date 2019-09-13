@@ -1,13 +1,19 @@
 <div class="projects" id="projects">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
+          <div class="col-md-9 ml-auto mr-auto text-center">
               <h2 class="title">Projects</h2>
+              <h4>Check out my code for this website and other websites I've created or work on below.
+                  <br>
+                  <a href="#" target="_blank" class="btn btn-primary btn-round">
+                        <img src="assets/img/skills/github.svg" height="25px" width="25px"> GitHub
+                    </a>
+                </h4>
           </div>
       </div>
       <div class="row">
           <div class="col-md-6 pt-0 pl-0 pr-1 pb-1" *ngFor="let project of projects">
-              <div class="card card-background card-background-product card-no-shadow" [ngStyle]="{'background-image': 'url('+project.image+')'}">
+              <div class="card card-background card-background-product card-no-shadow" [ngStyle]="{'background-image': 'url('+project.image+')', 'background-position': 'top'}">
                   <div class="card-body">
                       <h3 class="card-title">
                           {{ project.name }}
@@ -16,7 +22,7 @@
                           {{ project.description }}
                       </p>
                       <a href="{{ project.websiteLink }}" target="_blank" class="btn btn-primary btn-round">
-                          <i class="now-ui-icons ui-1_send"></i> View Website
+                          <i class="now-ui-icons objects_spaceship"></i> View Website
                       </a>
                   </div>
               </div>

@@ -4,7 +4,7 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     name: 'Gateway IT Consulting',
-    image: 'assets/img/projects/gitc.JPG',
+    image: 'assets/img/projects/gitc.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: '',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
   {
     id: 2,
     name: 'Simplest Cookbook',
-    image: '',
+    image: 'assets/img/projects/simplestCookbook.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: '',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   {
     id: 3,
     name: 'The Palate STL',
-    image: 'assets/img/projects/thePalateSTL.JPG',
+    image: 'assets/img/projects/thePalateSTL.jpg',
     websiteLink: 'https://www.thepalatestl.com/',
     codeLink: '',
     description: 'A local food finder web app.'
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
   {
     id: 4,
     name: "Our Lady's Inn",
-    image: '',
+    image: 'assets/img/projects/ourLadysInn.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: '',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
