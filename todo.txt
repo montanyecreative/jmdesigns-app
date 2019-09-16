@@ -6,7 +6,6 @@ Implement Google Analytics.
 Make printable resume. Resume button under contact me. 
 
 Implement Github links. jmdesigns and gitc
-Add 2 more skills. responsive - use phone icon from included icons. ux/ui - find icon
 
 Work experience - check LinkedIn for years
 SyllogisTeks - various projects using html5, css3, angularjs, php, sketch, git, svn, vagrant, mysql.

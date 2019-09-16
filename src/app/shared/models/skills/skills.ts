@@ -110,5 +110,15 @@ export const SKILLS: Skill[] = [
     id: 22,
     name: 'Agile',
     image: 'assets/img/skills/agile.png'
+  },
+  {
+    id: 23,
+    name: 'Responsive',
+    image: 'assets/img/skills/responsive.svg'
+  },
+  {
+    id: 24,
+    name: 'UX / UI',
+    image: 'assets/img/skills/ux-ui.svg'
   }
 ];
