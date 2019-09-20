@@ -9,11 +9,6 @@ Implement Github links. jmdesigns and gitc
 
 Work experience - check LinkedIn for years
 SyllogisTeks - various projects using html5, css3, angularjs, php, sketch, git, svn, vagrant, mysql.
-implemented front-end for internal facing application using html5, bootstrap4, sass, & angularjs.
-took mocks from designer and turned them into responsive web pages that could be used in various projects.
-managed external facing WordPress website.
-created batch files for running dev environments increasing dev performance.
-used photoshop to create graphics for applications.
 GITC - talk self projects & OLI.
 
 Contact Me
