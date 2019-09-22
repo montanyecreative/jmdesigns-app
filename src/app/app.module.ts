@@ -14,6 +14,7 @@ import { ProjectsComponent } from './shared/projects/projects.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SkillsComponent } from './shared/skills/skills.component';
 import { ExperienceComponent } from './shared/experience/experience.component';
+import { ContactComponent } from './shared/contact/contact.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { ExperienceComponent } from './shared/experience/experience.component';
         ProjectsComponent,
         HomePageComponent,
         SkillsComponent,
-        ExperienceComponent
+        ExperienceComponent,
+        ContactComponent
     ],
     imports: [
         BrowserAnimationsModule,
