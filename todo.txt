@@ -7,18 +7,9 @@ Make printable resume. Resume button under contact me.
 
 Implement Github links. jmdesigns and gitc
 
-Work experience - check LinkedIn for years
-SyllogisTeks - various projects using html5, css3, angularjs, php, sketch, git, svn, vagrant, mysql.
-GITC - talk self projects & OLI.
-
 Contact Me
-Location - Chesterfield, MO (map background?)
+Location - Chesterfield, MO
 Phone number - 314-578-9037
-
-Fields - all required
-name
-email
-description
 
 button will submit fields to jmontanye24@gmail.com
 
