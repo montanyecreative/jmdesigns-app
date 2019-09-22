@@ -1,27 +1,33 @@
 #experience {
+    
+    color: white;
+
     p {
         font-weight: 400;
         font-size: 1.1em;
     }
 
+    img {
+        height: 25px;
+        width: 25px;
+    }
+
     .work-one {
         border-right: 2px solid black;
         text-align: right;
-        color: white;
         img {
-            height: 30px;
-            width: 30px;
             margin-left: 5px;
         }
     }
 
     .work-two {
         text-align: left;
-        color: white;
         img {
-            height: 30px;
-            width: 30px;
             margin-right: 5px;
         }
+    }
+
+    .education {
+        text-align: center;
     }
 }
