@@ -11,6 +11,6 @@ I then took the theme, heavily customized the components, removing what I did no
 
 The design for the website was my own except for each individual component design. I created the design using Sketch.
 
-I achieved this through updating certain elements to be utilize more of HTML5. I also achieved this through editing the SASS and writing new Angular 7 components and pages into the project. I also updated the accessibility of the theme, as it was lacking heavily in this area. I also implemented HTTPS for submitting the form data and allowing the later creation of a PWA so that the web app could function as an offline document.
+I achieved this through updating certain elements to be utilize more of HTML5. I also achieved this through editing the SASS and writing new Angular 7 components and pages into the project. I also updated the accessibility of the theme, as it was lacking heavily in this area.
 
 The skills are mostly all SVG files. I downloaded them in the color black and then recolored them to match each respective brand.
