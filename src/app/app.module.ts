@@ -15,6 +15,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SkillsComponent } from './shared/skills/skills.component';
 import { ExperienceComponent } from './shared/experience/experience.component';
 import { ContactComponent } from './shared/contact/contact.component';
+import { ScrollToTopComponent } from './shared/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
     declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './shared/contact/contact.component';
         HomePageComponent,
         SkillsComponent,
         ExperienceComponent,
-        ContactComponent
+        ContactComponent,
+        ScrollToTopComponent
     ],
     imports: [
         BrowserAnimationsModule,
