@@ -7,7 +7,6 @@ import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
 import { TagInputModule } from 'ngx-chips';
 import { AngularMultiSelectModule } from 'angular2-multiselect-dropdown';
 import { NgxGalleryModule } from 'ngx-gallery';
-import { ImageUploadModule } from '../shared/image-upload/image-upload.module';
 import { RouterModule } from '@angular/router';
 
 import { BasicelementsComponent } from './basicelements/basicelements.component';
@@ -33,8 +32,7 @@ import { CardsAreasComponent } from './cards-areas/cards-areas.component';
         JwBootstrapSwitchNg2Module,
         AngularMultiSelectModule,
         FormsModule,
-        NgxGalleryModule,
-        ImageUploadModule
+        NgxGalleryModule
     ],
     declarations: [
         ComponentsComponent,

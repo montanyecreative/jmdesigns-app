@@ -1,14 +1,7 @@
 Change read me.
 Change author.
-Remove unnecessary code.
 Implement HTTPS.
 Implement Google Analytics.
 Make printable resume. Resume button under contact me. 
 
 Implement Github links. jmdesigns and gitc
-
-Make scroll to top button.
-
-Fix Projects Header with navigation.
-
-Change initial copy under projects.
