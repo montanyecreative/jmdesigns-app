@@ -14,3 +14,5 @@ Phone number - 314-578-9037
 button will submit fields to jmontanye24@gmail.com
 
 Make scroll to top button.
+
+Fix Projects Header with navigation.

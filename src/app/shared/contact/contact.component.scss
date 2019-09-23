@@ -1,0 +1,21 @@
+#contact {
+    .title {
+        color: black;
+        text-align: center;
+    }
+
+    .contact-info {
+        .linkedIn {
+            color: #0077b5;
+            a {
+                color: #0077b5;
+            }
+        }
+    }
+
+    .email {
+        a {
+            font-size: 1rem;
+        }
+    }
+}
