@@ -1,7 +1,5 @@
-Change read me.
-Change author.
 Implement HTTPS.
 Implement Google Analytics.
 Make printable resume. Resume button under contact me. 
 
-Implement Github links. jmdesigns and gitc
+Implement Github link. jmdesigns
