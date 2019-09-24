@@ -1,5 +1,3 @@
-Implement HTTPS.
-Implement Google Analytics.
 Make printable resume. Resume button under contact me. 
 
 Implement Github link. jmdesigns
