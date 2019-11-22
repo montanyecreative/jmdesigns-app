@@ -8,6 +8,7 @@
 * Copyright 2019 Creative Tim (https://www.creative-tim.com)
 
 * Theme By Creative Tim
+* After initial commit, coding done by John Montanye
 
 =========================================================
 

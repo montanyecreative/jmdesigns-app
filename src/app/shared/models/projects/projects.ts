@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     name: 'Simplest Cookbook',
     image: 'assets/img/projects/simplestCookbook.jpg',
     websiteLink: 'https://www.simplestcookbook.com/',
-    codeLink: '',
+    codeLink: 'https://github.com/gatewayitconsulting/simplest-cookbook-react',
     description: 'Simple cookbook with many different recipes and calculators relating to cooking.'
   },
   {

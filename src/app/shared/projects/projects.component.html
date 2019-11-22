@@ -12,7 +12,7 @@
           </div>
       </section>
       <section class="row">
-          <div class="col-md-6 pt-0 pl-0 pr-1 pb-1" *ngFor="let project of projects">
+          <div class="col-md-6 pHalf" *ngFor="let project of projects">
               <div class="card card-background card-background-product card-no-shadow" [ngStyle]="{'background-image': 'url('+project.image+')', 'background-position': 'top'}">
                   <div class="card-body">
                       <h3 class="card-title">
@@ -21,9 +21,12 @@
                       <p class="card-description">
                           {{ project.description }}
                       </p>
-                      <a href="{{ project.websiteLink }}" target="_blank" rel="noopener" class="btn btn-primary btn-round">
+                      <a href="{{ project.websiteLink }}" target="_blank" rel="noopener" class="btn btn-primary btn-round mx-1">
                           <i class="now-ui-icons objects_spaceship"></i> View Website
                       </a>
+                      <a *ngIf="project.codeLink !== ''" href="{{ project.codeLink }}" target="_blank" rel="noopener" class="btn btn-primary btn-round mx-1">
+                        <img src="assets/img/skills/github-white.svg" height="15px" width="15px" alt="Image of brand GitHub with purple background."/> View GitHub
+                    </a>
                   </div>
               </div>
           </div>
