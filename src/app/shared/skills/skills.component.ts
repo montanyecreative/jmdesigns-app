@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Skill } from '../services/skills/skill';
-import { SkillService } from '../services/skills/skill.service';
+import { Skill } from '../../services/skills/skill';
+import { SkillService } from '../../services/skills/skill.service';
 
 
 @Component({
@@ -23,4 +23,3 @@ export class SkillsComponent implements OnInit {
     .subscribe(skills => this.skills = skills);
   }
 }
-
