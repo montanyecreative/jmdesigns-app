@@ -2,13 +2,18 @@
     padding: .1rem;
 }
 
+.card {
+    min-height: 100%;
+    box-shadow: inset 0px 0px 300px 50px rgba(0,0,0,0.75);
+}
+
 .card-description {
     color: #FFF;
 }
 
 .badge-custom {
     background-color: #2CA8FF;
-    color: #FFF;
+    color: ghostwhite;
     margin: .125rem;
     border-color: #2CA8FF;
     font-size: .6rem;
