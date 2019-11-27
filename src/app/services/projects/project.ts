@@ -5,4 +5,7 @@ export class Project {
     websiteLink: string;
     codeLink: string;
     description: string;
+    skills: Array<{
+      name: string
+    }>
   }

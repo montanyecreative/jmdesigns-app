@@ -7,7 +7,8 @@ export const PROJECTS: Project[] = [
     image: 'assets/img/projects/simplestCookbook.jpg',
     websiteLink: 'https://www.simplestcookbook.com/',
     codeLink: 'https://github.com/gatewayitconsulting/simplest-cookbook-react',
-    description: 'Cookbook app with many different recipes and features to assist people cooking.'
+    description: 'Cookbook app with many different recipes and features to assist people cooking.',
+    skills: [{name: 'React'}, {name: 'JavaScript'}, {name: 'Material Design'}, {name: 'SASS'}, {name: 'HTML5'}]
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ export const PROJECTS: Project[] = [
     image: 'assets/img/projects/gitc.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: '',
-    description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.'
+    description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
+    skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'PHP'}, {name: 'HTML5'}]
   },
   {
     id: 3,
@@ -23,7 +25,8 @@ export const PROJECTS: Project[] = [
     image: 'assets/img/projects/thePalateSTL.jpg',
     websiteLink: 'https://www.thepalatestl.com/',
     codeLink: '',
-    description: 'A local restaurant finder app for the St. Louis area.'
+    description: 'A local restaurant finder app for the St. Louis area.',
+    skills: [{name: 'JavaScript'}, {name: 'PHP'}, {name: 'HTML5'}, {name: 'WordPress'}, {name: 'CSS3'}]
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ export const PROJECTS: Project[] = [
     image: 'assets/img/projects/ourLadysInn.jpg',
     websiteLink: 'https://ourladysinn.org/',
     codeLink: '',
-    description: "Website for Our Lady's Inn maternity homes in St. Louis."
+    description: "Website for Our Lady's Inn maternity homes in St. Louis.",
+    skills: [{name: 'JavaScript'}, {name: 'PHP'}, {name: 'CSS3'}, {name: 'WordPress'}, {name: 'GA'}]
   }
 ];
