@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
     name: 'Gateway IT Consulting',
     image: 'assets/img/projects/gitc.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
-    codeLink: '',
+    codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
     skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'PHP'}, {name: 'HTML5'}]
   },
