@@ -13,18 +13,18 @@ export const SKILLS: Skill[] = [
   },
   {
     id: 3,
-    name: 'React',
-    image: 'assets/img/skills/react.svg'
-  },
-  {
-    id: 4,
     name: 'AngularJS',
     image: 'assets/img/skills/angular.svg'
   },
   {
-    id: 5,
+    id: 4,
     name: 'Angular 6 - 8',
     image: 'assets/img/skills/angular.svg'
+  },
+  {
+    id: 5,
+    name: 'React',
+    image: 'assets/img/skills/react.svg'
   },
   {
     id: 6,
