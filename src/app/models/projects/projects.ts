@@ -7,7 +7,7 @@ export const PROJECTS: Project[] = [
     image: 'assets/img/projects/simplestCookbook.jpg',
     websiteLink: 'https://www.simplestcookbook.com/',
     codeLink: 'https://github.com/gatewayitconsulting/Simplest-Cookbook-Angular',
-    description: 'Cookbook app with many different recipes and features to assist people cooking.',
+    description: 'Cookbook app with many different recipes and features to assist people cooking. (ongoing development)',
     skills: [{name: 'Angular 7'}, {name: 'JavaScript'}, {name: 'Bootstrap'}, {name: 'SASS'}, {name: 'HTML5'}]
   },
   {
