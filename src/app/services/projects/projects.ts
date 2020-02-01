@@ -1,4 +1,4 @@
-import { Project } from '../../services/projects/project';
+import { Project } from '../../models/projects/project';
 
 export const PROJECTS: Project[] = [
   {

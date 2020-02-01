@@ -1,4 +1,4 @@
-import { Skill } from '../../services/skills/skill';
+import { Skill } from '../../models/skills/skill';
 
 export const SKILLS: Skill[] = [
   {
