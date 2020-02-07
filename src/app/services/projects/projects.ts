@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     websiteLink: 'https://www.simplestcookbook.com/',
     codeLink: 'https://github.com/gatewayitconsulting/Simplest-Cookbook-Angular',
     description: 'Cookbook app with many different recipes and features to assist people cooking. (ongoing development)',
-    skills: [{name: 'Angular 7'}, {name: 'JavaScript'}, {name: 'Bootstrap'}, {name: 'SASS'}, {name: 'HTML5'}]
+    skills: [{name: 'Angular 7'}, {name: 'JavaScript'}, {name: 'Bootstrap'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'HTML5'}]
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const PROJECTS: Project[] = [
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
-    skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'PHP'}, {name: 'HTML5'}]
+    skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'PHP'}, {name: 'HTML5'}]
   },
   {
     id: 3,
