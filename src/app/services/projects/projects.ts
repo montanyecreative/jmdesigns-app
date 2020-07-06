@@ -3,21 +3,22 @@ import { Project } from '../../models/projects/project';
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    name: 'Simplest Cookbook',
-    image: 'assets/img/projects/simplestCookbook.jpg',
-    websiteLink: 'https://www.simplestcookbook.com/',
-    codeLink: 'https://github.com/gatewayitconsulting/Simplest-Cookbook-Angular',
-    description: 'Cookbook app with many different recipes and features to assist people cooking. (ongoing development)',
-    skills: [{name: 'Angular 7'}, {name: 'JavaScript'}, {name: 'Bootstrap'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'HTML5'}]
-  },
-  {
-    id: 2,
     name: 'Gateway IT Consulting',
     image: 'assets/img/projects/gitc.jpg',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
     skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'PHP'}, {name: 'HTML5'}]
+  },
+  {
+    id: 2,
+    name: 'Pomodoro Clock',
+    image: 'assets/img/projects/simplestCookbook.jpg',
+    websiteLink: 'http://pomodoroclock.com/',
+    codeLink: 'https://github.com/gatewayitconsulting/pomodoro-timer-react',
+    description: 'Pomodoro technique time tracker with an animated timer.',
+    // tslint:disable-next-line: max-line-length
+    skills: [{name: 'React'}, {name: 'JavaScript'}, {name: 'AWS'}, {name: 'Material Design Bootstrap'}, {name: 'SASS'}, {name: 'CSS3 Animations'}, {name: 'HTML5'}]
   },
   {
     id: 3,
