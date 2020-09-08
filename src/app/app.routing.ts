@@ -2,18 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
-
-import { ComponentsComponent } from './components/components.component';
-import { SectionsComponent } from './sections/sections.component';
-import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home',                 component: HomePageComponent },
-    { path: 'components',           component: ComponentsComponent },
-    { path: 'sections',             component: SectionsComponent },
-    { path: 'nucleoicons',          component: NucleoiconsComponent }
+    { path: 'home', component: HomePageComponent },
+    { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
