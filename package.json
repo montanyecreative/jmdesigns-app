@@ -41,6 +41,8 @@
     "rellax": "1.7.1",
     "rxjs": "6.4.0",
     "rxjs-compat": "6.4.0",
+    "serialize-javascript": "^4.0.0",
+    "tree-kill": ">=1.2.2",
     "zone.js": "0.8.29"
   },
   "devDependencies": {
