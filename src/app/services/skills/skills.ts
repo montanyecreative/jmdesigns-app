@@ -18,7 +18,7 @@ export const SKILLS: Skill[] = [
   },
   {
     id: 4,
-    name: 'Angular 6 - 8',
+    name: 'Angular 6 - 10',
     image: 'assets/img/skills/angular.svg'
   },
   {
@@ -123,31 +123,46 @@ export const SKILLS: Skill[] = [
   },
   {
     id: 25,
+    name: 'Illustrator',
+    image: 'assets/img/skills/adobeillustrator.svg'
+  },
+  {
+    id: 26,
     name: 'Sketch',
     image: 'assets/img/skills/sketch.svg'
   },
   {
-    id: 26,
+    id: 27,
+    name: 'inVision',
+    image: 'assets/img/skills/invision.svg'
+  },
+  {
+    id: 28,
     name: 'GA',
     image: 'assets/img/skills/googleanalytics.svg'
   },
   {
-    id: 27,
+    id: 29,
+    name: 'Salesforce',
+    image: 'assets/img/skills/salesforce.svg'
+  },
+  {
+    id: 30,
     name: 'JSON',
     image: 'assets/img/skills/json.svg'
   },
   {
-    id: 28,
+    id: 31,
     name: 'Agile',
     image: 'assets/img/skills/agile.png'
   },
   {
-    id: 29,
+    id: 32,
     name: 'Responsive',
     image: 'assets/img/skills/responsive.svg'
   },
   {
-    id: 30,
+    id: 33,
     name: 'UX / UI',
     image: 'assets/img/skills/ux-ui.svg'
   }
