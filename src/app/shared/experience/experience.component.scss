@@ -13,8 +13,7 @@
     }
 
     .work-one {
-        border-right: 2px solid black;
-        text-align: right;
+        text-align: left;
         img {
             margin-left: 5px;
         }
@@ -29,5 +28,12 @@
 
     .education {
         text-align: center;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .work-one {
+            border-right: 2px solid black;
+            text-align: right;
+        }
     }
 }
