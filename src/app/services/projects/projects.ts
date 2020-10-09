@@ -5,6 +5,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     name: 'Gateway IT Consulting',
     image: 'assets/img/projects/gitc.jpg',
+    imageAltText: 'Screenshot of website.',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
@@ -12,18 +13,20 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    name: 'Pomodoro Clock',
-    image: 'assets/img/projects/simplestCookbook.jpg',
-    websiteLink: 'http://pomodoroclock.com/',
-    codeLink: 'https://github.com/gatewayitconsulting/pomodoro-timer-react',
-    description: 'Pomodoro technique time tracker with an animated timer.',
+    name: 'NFPFramework',
+    image: 'assets/img/projects/nfpframework.PNG',
+    imageAltText: 'Screenshot of website.',
+    websiteLink: 'http://nfpframework.com/',
+    codeLink: '',
+    description: 'Angular & Bootstrap shell built from offline bootstrap customized to run templates further into development.',
     // tslint:disable-next-line: max-line-length
-    skills: [{name: 'React'}, {name: 'JavaScript'}, {name: 'AWS'}, {name: 'Material Design Bootstrap'}, {name: 'SASS'}, {name: 'CSS3 Animations'}, {name: 'HTML5'}]
+    skills: [{name: 'Angular 10'}, {name: 'TypeScript'}, {name: 'AWS'}, {name: 'Bootstrap 4.5'}, {name: 'SASS'}, {name: 'Angular Animations'}, {name: 'HTML5'}]
   },
   {
     id: 3,
     name: 'The Palate STL',
     image: 'assets/img/projects/thePalateSTL.jpg',
+    imageAltText: 'Screenshot of website.',
     websiteLink: 'https://www.thepalatestl.com/',
     codeLink: '',
     description: 'A local restaurant finder app for the St. Louis area.',
@@ -33,6 +36,7 @@ export const PROJECTS: Project[] = [
     id: 4,
     name: "Our Lady's Inn",
     image: 'assets/img/projects/ourLadysInn.jpg',
+    imageAltText: 'Screenshot of website.',
     websiteLink: 'https://ourladysinn.org/',
     codeLink: '',
     description: "Website for Our Lady's Inn maternity homes in St. Louis.",

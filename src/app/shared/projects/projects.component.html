@@ -13,7 +13,7 @@
       </section>
       <section class="row">
           <div class="col-md-6 pHalf" *ngFor="let project of projects">
-              <div class="card card-background card-background-product card-no-shadow" [ngStyle]="{'background-image': 'url('+project.image+')', 'background-position': 'top'}">
+              <div class="card card-background card-background-product card-no-shadow" [ngStyle]="{'background-image': 'url('+project.image+')', 'background-position': 'top'}" alt="{ project.imageAltText }">
                   <div class="card-body">
                       <h3 class="card-title">
                           {{ project.name }}
