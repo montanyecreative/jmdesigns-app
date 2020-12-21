@@ -4,7 +4,7 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     name: 'Gateway IT Consulting',
-    image: 'assets/img/projects/gitc.jpg',
+    image: 'assets/img/projects/gitc.JPG',
     imageAltText: 'Screenshot of website.',
     websiteLink: 'https://www.gatewayitconsulting.com/',
     codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
@@ -25,7 +25,7 @@ export const PROJECTS: Project[] = [
   {
     id: 3,
     name: 'The Palate STL',
-    image: 'assets/img/projects/thePalateSTL.jpg',
+    image: 'assets/img/projects/thePalateSTL.JPG',
     imageAltText: 'Screenshot of website.',
     websiteLink: 'https://www.thepalatestl.com/',
     codeLink: '',
