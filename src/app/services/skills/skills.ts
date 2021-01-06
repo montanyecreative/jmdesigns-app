@@ -18,7 +18,7 @@ export const SKILLS: Skill[] = [
   },
   {
     id: 4,
-    name: 'Angular 6 - 10',
+    name: 'Angular 6 - 11',
     image: 'assets/img/skills/angular.svg'
   },
   {

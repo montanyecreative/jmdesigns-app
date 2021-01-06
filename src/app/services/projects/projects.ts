@@ -5,30 +5,36 @@ export const PROJECTS: Project[] = [
     id: 1,
     name: 'Gateway IT Consulting',
     image: 'assets/img/projects/gitc.JPG',
-    imageAltText: 'Screenshot of website.',
+    imageAltText: 'Screenshot of the Gateway IT Consulting website.',
     websiteLink: 'https://www.gatewayitconsulting.com/',
-    codeLink: 'https://github.com/gatewayitconsulting/GatewayITConsulting',
+    websiteLinkTitle: 'View the website on a new page.',
+    codeLink: '',
+    codeLinkTitle: '',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
-    skills: [{name: 'AngularJS'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'PHP'}, {name: 'HTML5'}]
+    skills: [{name: 'WordPress'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'PHP'}, {name: 'HTML5'}]
   },
   {
     id: 2,
-    name: 'NFPFramework',
-    image: 'assets/img/projects/nfpframework.PNG',
-    imageAltText: 'Screenshot of website.',
-    websiteLink: 'http://nfpframework.com/',
-    codeLink: '',
-    description: 'Angular & Bootstrap shell built from offline bootstrap customized to run templates further into development.',
+    name: 'Acidic Food Checker',
+    image: 'assets/img/projects/phoodcalc.PNG',
+    imageAltText: 'Screenshot of the pHoodcalc website.',
+    websiteLink: 'http://acidicfoodchecker.com/',
+    websiteLinkTitle: 'View the website on a new page.',
+    codeLink: 'https://github.com/gatewayitconsulting/acidicfoodchecker',
+    codeLinkTitle: 'View the GitHub repository of this project on a new page.',
+    description: 'An app that shows the pH level of foods and daily diets. (Ongoing development)',
     // tslint:disable-next-line: max-line-length
-    skills: [{name: 'Angular 10'}, {name: 'TypeScript'}, {name: 'AWS'}, {name: 'Bootstrap 4.5'}, {name: 'SASS'}, {name: 'Angular Animations'}, {name: 'HTML5'}]
+    skills: [{name: 'Angular 11'}, {name: 'TypeScript'}, {name: 'AWS'}, {name: 'Material Angular Design'}, {name: 'SASS'}, {name: 'Sails API'}, {name: 'HTML5'}]
   },
   {
     id: 3,
     name: 'The Palate STL',
     image: 'assets/img/projects/thePalateSTL.JPG',
-    imageAltText: 'Screenshot of website.',
+    imageAltText: 'Screenshot of The Palate STL website.',
     websiteLink: 'https://www.thepalatestl.com/',
+    websiteLinkTitle: 'View the website on a new page.',
     codeLink: '',
+    codeLinkTitle: '',
     description: 'A local restaurant finder app for the St. Louis area.',
     skills: [{name: 'JavaScript'}, {name: 'PHP'}, {name: 'HTML5'}, {name: 'WordPress'}, {name: 'CSS3'}]
   },
@@ -36,9 +42,11 @@ export const PROJECTS: Project[] = [
     id: 4,
     name: "Our Lady's Inn",
     image: 'assets/img/projects/ourLadysInn.jpg',
-    imageAltText: 'Screenshot of website.',
+    imageAltText: "Screenshot of the Our Lady's Inn website.",
     websiteLink: 'https://ourladysinn.org/',
+    websiteLinkTitle: 'View the website on a new page.',
     codeLink: '',
+    codeLinkTitle: '',
     description: "Website for Our Lady's Inn maternity homes in St. Louis.",
     skills: [{name: 'JavaScript'}, {name: 'PHP'}, {name: 'CSS3'}, {name: 'WordPress'}, {name: 'GA'}]
   }

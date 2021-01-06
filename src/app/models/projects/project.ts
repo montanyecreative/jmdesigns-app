@@ -4,7 +4,9 @@ export class Project {
     image: string;
     imageAltText: string;
     websiteLink: string;
+    websiteLinkTitle: string;
     codeLink: string;
+    codeLinkTitle: string;
     description: string;
     skills: Array<{
       name: string
