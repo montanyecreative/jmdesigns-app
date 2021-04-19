@@ -11,20 +11,20 @@ export const PROJECTS: Project[] = [
     codeLink: '',
     codeLinkTitle: '',
     description: 'A website to help clients and users find solutions for designing, building, and maintaining websites.',
-    skills: [{name: 'WordPress'}, {name: 'JavaScript'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'PHP'}, {name: 'HTML5'}]
+    skills: [{name: 'ReactJS'}, {name: 'JavaScript'}, {name: 'Material Angular Design'}, {name: 'SASS'}, {name: 'CSS3'}, {name: 'GA'}, {name: 'HTML5'}]
   },
   {
     id: 2,
-    name: 'Acidic Food Checker',
-    image: 'assets/img/projects/phoodcalc.PNG',
-    imageAltText: 'Screenshot of the pHoodcalc website.',
-    websiteLink: 'http://acidicfoodchecker.com/',
+    name: 'Montanye Wedding',
+    image: 'assets/img/projects/montanye-wedding.PNG',
+    imageAltText: 'Screenshot of the Montanye Wedding website.',
+    websiteLink: 'https://montanyewedding.com/',
     websiteLinkTitle: 'View the website on a new page.',
-    codeLink: 'https://github.com/gatewayitconsulting/acidicfoodchecker',
-    codeLinkTitle: 'View the GitHub repository of this project on a new page.',
-    description: 'An app that shows the pH level of foods and daily diets. (Ongoing development)',
+    codeLink: '',
+    codeLinkTitle: '',
+    description: 'An app/website for the wedding of John and Lauren Montanye for 2022.',
     // tslint:disable-next-line: max-line-length
-    skills: [{name: 'Angular 11'}, {name: 'TypeScript'}, {name: 'AWS'}, {name: 'Material Angular Design'}, {name: 'SASS'}, {name: 'Sails API'}, {name: 'HTML5'}]
+    skills: [{name: 'ReactJS'}, {name: 'JavaScript'}, {name: 'Material Angular Design'}, {name: 'SASS'}, {name: 'Sails API'}, {name: 'HTML5'}, {name: 'GA'}]
   },
   {
     id: 3,

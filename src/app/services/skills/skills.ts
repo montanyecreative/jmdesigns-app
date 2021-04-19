@@ -165,5 +165,15 @@ export const SKILLS: Skill[] = [
     id: 33,
     name: 'UX / UI',
     image: 'assets/img/skills/ux-ui.svg'
+  },
+  {
+    id: 34,
+    name: 'Heroku',
+    image: 'assets/img/skills/heroku.svg'
+  },
+  {
+    id: 35,
+    name: 'Mailchimp',
+    image: 'assets/img/skills/mailchimp.svg'
   }
 ];
